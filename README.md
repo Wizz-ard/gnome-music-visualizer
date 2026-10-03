@@ -74,3 +74,24 @@ On Fedora:
 sudo dnf install cava
 
 If CAVA is not installed, the extension automatically uses a simulated visualizer.
+
+
+## Screenshots
+
+### Music Widget
+
+| Transparent | Increased Opacity |
+|:---:|:---:|
+| ![Transparent Widget](screenshots/music-widget.png) | ![Increased Opacity](screenshots/music-widget-opacity.png) |
+
+### Appearance Settings
+
+![Appearance Settings](screenshots/appearance.png)
+
+### Visualizer Settings
+
+![Visualizer Settings](screenshots/visualizer.png)
+
+### Additional Appearance Options
+
+![Appearance Options](screenshots/appearance-options.png)
