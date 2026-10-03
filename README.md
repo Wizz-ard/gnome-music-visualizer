@@ -62,19 +62,99 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Wizz-ard/gnome-music-visualizer.git
-#### Copy the extension to the GNOME extensions directory:
+```
+
+Copy the extension to the GNOME extensions directory:
+
+```bash
 mkdir -p ~/.local/share/gnome-shell/extensions/musicviz@example.local
 cp -r gnome-music-visualizer/* ~/.local/share/gnome-shell/extensions/musicviz@example.local/
-##### Enable the extension:
-gnome-extensions enable musicviz@example.local
+```
 
-###### Installing CAVA:
-For real-time audio visualization, install CAVA using your distribution's package manager.On Fedora:
+Enable the extension:
+
+```bash
+gnome-extensions enable musicviz@example.local
+```
+
+The extension can also be managed through the GNOME Extensions application.
+
+### Installing CAVA
+
+For real-time audio visualization, install CAVA using your distribution's package manager.
+
+On Fedora:
+
+```bash
 sudo dnf install cava
+```
 
 If CAVA is not installed, the extension automatically uses a simulated visualizer.
-,,,
 
+## Settings
+
+The extension provides configuration options through GNOME Extensions preferences.
+
+### Appearance
+
+- Widget layout
+- Widget scale
+- Background opacity
+- Dynamic album-art colours
+- Gradient colours
+- Custom width and height
+- Background blur
+- Album artwork visibility
+- Visualizer visibility
+- Time display
+
+### Visualizer
+
+- Visualizer style
+- Number of bars
+- Bar spacing
+- Rounded bars
+- Sensitivity
+- Smoothing
+- CAVA support
+
+### Character
+
+- Character type
+- Character size
+- Beat-based animation
+
+### Behaviour
+
+- Show or hide the widget
+- Lock widget position
+- Preferred media player
+- Ignored media players
+- Double-click action
+- Favourite button
+
+## Controls
+
+The widget provides controls for:
+
+- Play / pause
+- Previous track
+- Next track
+- Volume
+- Seek
+- Shuffle
+- Repeat
+
+The widget can be moved around the desktop when its position is unlocked.
+
+## Panel Menu
+
+The GNOME panel menu provides quick access to:
+
+- Show or hide the widget
+- Lock or unlock the widget position
+- Reset the widget position
+- Open extension settings
 
 ## Screenshots
 
@@ -88,10 +168,14 @@ If CAVA is not installed, the extension automatically uses a simulated visualize
 
 ![Appearance Settings](screenshots/appearance.png)
 
+### Additional Appearance Options
+
+![Appearance Options](screenshots/appearance-options.png)
+
 ### Visualizer Settings
 
 ![Visualizer Settings](screenshots/visualizer.png)
 
-### Additional Appearance Options
+## License
 
-![Appearance Options](screenshots/appearance-options.png)
+This project is open source. See the repository for license information.
