@@ -69,11 +69,11 @@ cp -r gnome-music-visualizer/* ~/.local/share/gnome-shell/extensions/musicviz@ex
 gnome-extensions enable musicviz@example.local
 
 ###### Installing CAVA:
-For real-time audio visualization, install CAVA using your distribution's package manager.
-On Fedora:
+For real-time audio visualization, install CAVA using your distribution's package manager.On Fedora:
 sudo dnf install cava
 
 If CAVA is not installed, the extension automatically uses a simulated visualizer.
+
 
 
 ## Screenshots
