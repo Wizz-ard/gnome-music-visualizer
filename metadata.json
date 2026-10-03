@@ -1,0 +1,16 @@
+{
+  "uuid": "musicviz@example.local",
+  "name": "Music Visualizer",
+  "description": "Free-floating desktop widget showing the current song with album-art colours, a configurable visualizer, play/pause controls and adjustable transparency.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.musicviz",
+  "version": 2,
+  "url": "https://github.com/YOUR_USERNAME/gnome-music-visualizer"
+}

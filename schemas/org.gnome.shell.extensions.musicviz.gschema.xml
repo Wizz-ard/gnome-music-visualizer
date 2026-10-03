@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.musicviz" path="/org/gnome/shell/extensions/musicviz/">
+    <!-- layout / look -->
+    <key name="layout" type="s"><default>'standard'</default><summary>standard, horizontal or compact</summary></key>
+    <key name="show-art" type="b"><default>true</default><summary>Show album art</summary></key>
+    <key name="show-time" type="b"><default>true</default><summary>Show elapsed / total time</summary></key>
+    <key name="show-visualizer" type="b"><default>true</default><summary>Show visualizer</summary></key>
+    <key name="opacity" type="d"><range min="0.0" max="1.0"/><default>0.85</default><summary>Card opacity</summary></key>
+    <key name="widget-scale" type="d"><range min="0.5" max="2.0"/><default>1.0</default><summary>Widget size multiplier</summary></key>
+    <key name="dynamic-color" type="b"><default>true</default><summary>Use album art colour</summary></key>
+    <key name="blur-enabled" type="b"><default>false</default><summary>Frosted glass blur</summary></key>
+    <key name="blur-strength" type="i"><range min="0" max="100"/><default>30</default><summary>Blur strength</summary></key>
+
+    <!-- visualizer -->
+    <key name="visualizer-style" type="s"><default>'bars'</default><summary>bars, mirror, wave, dots</summary></key>
+    <key name="bar-count" type="i"><range min="8" max="64"/><default>28</default><summary>Number of bars</summary></key>
+    <key name="bar-gap" type="i"><range min="0" max="10"/><default>2</default><summary>Gap between bars (px)</summary></key>
+    <key name="rounded-bars" type="b"><default>true</default><summary>Rounded bars</summary></key>
+    <key name="sensitivity" type="d"><range min="0.2" max="4.0"/><default>1.0</default><summary>Visualizer sensitivity</summary></key>
+    <key name="smoothing" type="d"><range min="0.0" max="0.95"/><default>0.5</default><summary>Visualizer smoothing</summary></key>
+    <key name="use-cava" type="b"><default>true</default><summary>Use cava for real audio data</summary></key>
+
+    <!-- progress character -->
+    <key name="character" type="s"><default>'cat'</default><summary>cat, dog, rocket, note, none</summary></key>
+    <key name="character-size" type="d"><range min="0.6" max="2.0"/><default>1.0</default><summary>Character size</summary></key>
+
+    <!-- colours -->
+    <key name="gradient-colors" type="b"><default>true</default><summary>Use a second album-art colour for gradients</summary></key>
+
+    <!-- custom size (unscaled pixels); extra height goes to the visualizer -->
+    <key name="custom-size" type="b"><default>false</default><summary>Use a custom width and height</summary></key>
+    <key name="widget-width" type="i"><range min="220" max="900"/><default>340</default><summary>Custom widget width</summary></key>
+    <key name="widget-height" type="i"><range min="120" max="900"/><default>320</default><summary>Custom widget height</summary></key>
+
+    <!-- character -->
+    <key name="beat-bounce" type="b"><default>true</default><summary>Character bounces to the beat</summary></key>
+
+    <!-- players -->
+    <key name="preferred-player" type="s"><default>''</default><summary>Preferred player(s), comma-separated name fragments</summary></key>
+    <key name="ignored-players" type="s"><default>''</default><summary>Ignored player(s), comma-separated name fragments</summary></key>
+    <key name="prefer-strict" type="b"><default>false</default><summary>Always show the preferred player when it is running</summary></key>
+
+    <!-- actions -->
+    <key name="double-click-action" type="s"><default>'raise'</default><summary>raise, playpause or none</summary></key>
+    <key name="show-like" type="b"><default>true</default><summary>Show the favourite (heart) button</summary></key>
+
+    <!-- window state -->
+    <key name="widget-x" type="i"><default>-1</default><summary>Widget X</summary></key>
+    <key name="widget-y" type="i"><default>-1</default><summary>Widget Y</summary></key>
+    <key name="locked" type="b"><default>false</default><summary>Lock widget position</summary></key>
+    <key name="widget-visible" type="b"><default>true</default><summary>Show desktop widget</summary></key>
+  </schema>
+</schemalist>

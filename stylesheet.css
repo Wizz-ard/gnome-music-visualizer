@@ -1,0 +1,12 @@
+.musicviz-card { padding: 16px; spacing: 12px; border-radius: 18px; color: white; }
+.musicviz-title { font-weight: bold; font-size: 14pt; color: white; }
+.musicviz-artist { font-size: 10pt; color: rgba(255,255,255,0.75); }
+.musicviz-time { font-size: 9pt; color: rgba(255,255,255,0.8); }
+.musicviz-title, .musicviz-artist, .musicviz-time { text-shadow: 0 1px 3px rgba(0,0,0,0.6); }
+.musicviz-art { border-radius: 10px; }
+.musicviz-btn { padding: 8px; border-radius: 99px; background-color: rgba(255,255,255,0.12); color: white; }
+.musicviz-btn:hover { background-color: rgba(255,255,255,0.25); }
+.musicviz-btn-small { padding: 6px; }
+.musicviz-btn-active { background-color: rgba(255,255,255,0.45); }
+.musicviz-btn-main { padding: 12px; background-color: rgba(255,255,255,0.9); color: black; }
+.musicviz-btn-main:hover { background-color: white; }
