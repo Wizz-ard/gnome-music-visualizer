@@ -73,7 +73,7 @@ For real-time audio visualization, install CAVA using your distribution's packag
 sudo dnf install cava
 
 If CAVA is not installed, the extension automatically uses a simulated visualizer.
-
+,,,
 
 
 ## Screenshots
